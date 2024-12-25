@@ -14,7 +14,7 @@ namespace VoxelBusters.EssentialKit.Editor.Android
             AndroidManifest androidManifest = new AndroidManifest(GetManifestPath(basePath));
 
             // Удаляем разрешение на интернет
-            androidManifest.RemovePermission("android.permission.INTERNET");
+            //androidManifest.RemovePermission("android.permission.INTERNET");
 
             //For forcing android hardwareAccelerated flag
             androidManifest.SetApplicationAttribute("hardwareAccelerated", "true");
@@ -32,7 +32,7 @@ namespace VoxelBusters.EssentialKit.Editor.Android
             // Adding file access permissions
             //androidManifest.AddPermission("android.permission.READ_EXTERNAL_STORAGE");
             //androidManifest.AddPermission("android.permission.WRITE_EXTERNAL_STORAGE");
-			//androidManifest.AddPermission("android.permission.INTERNET");
+			androidManifest.AddPermission("android.permission.INTERNET");
 
             androidManifest.Save();
         }
