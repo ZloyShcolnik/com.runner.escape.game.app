@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479474734987",
+    "project_id": "runner-fox-4ed06",
+    "storage_bucket": "runner-fox-4ed06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479474734987:android:2ad9cf4ecfa967a092c18e",
+        "android_client_info": {
+          "package_name": "com.runner.escape.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALckNMotowV5lQN1uNqlRJIaTd32i84dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
